@@ -52,7 +52,7 @@ const Main = () => {
   return (
     <main className=" flex flex-col items-center">
       <div className=" mt-[10rem] h-[17rem] mx-auto w-auto flex flex-col items-center p-5 gap-8 border border-transparent rounded-[10px] bg-[#313a49] md:w-[30%]">
-        <h1 className=" font-bold text-green-500">Advise # {adviceNumber}</h1>
+        <h1 className=" font-bold text-green-500">Advice # {adviceNumber}</h1>
 
         {advice.error === true ? (
           <p className="text-xl font-semibold text-red-800">
